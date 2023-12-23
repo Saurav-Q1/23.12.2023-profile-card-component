@@ -1,0 +1,89 @@
+// <style>
+//       .attribution {
+//         font-size: 11px;
+//         text-align: center;
+//       }
+//       .attribution a {
+//         color: hsl(228, 45%, 44%);
+//       }
+//     </style>
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 1440px;
+  height: 720px;
+  overflow: hidden;
+  background-color: #19a1ad;
+  .topImage {
+    position: absolute;
+    left: -280px;
+    top: -500px;
+  }
+  .bottomImage {
+    position: absolute;
+    right: -140px;
+    top: 380px;
+  }
+  //   card style
+  .card {
+    width: 353px;
+    height: 376px;
+    border: none;
+    // border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 2px 1px 38px 6px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 2px 1px 38px 6px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 2px 1px 38px 6px rgba(0, 0, 0, 0.24);
+
+    .card-header {
+      height: 143px;
+      width: 353px;
+    }
+    .card-body {
+      width: 100%;
+      height: 145px;
+      text-align: center;
+
+      img {
+        border-radius: 50%;
+        border: 5px solid white;
+        position: relative;
+        top: -56px;
+      }
+      p {
+        position: relative;
+        top: -36px;
+      }
+    }
+    .card-footer {
+      width: 100%;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 48px;
+
+      .first {
+        text-align: center;
+      }
+      .second {
+        text-align: center;
+      }
+      .third {
+        text-align: center;
+      }
+    }
+  }
+}

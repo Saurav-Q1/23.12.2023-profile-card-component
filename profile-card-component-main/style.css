@@ -1,0 +1,76 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 1440px;
+  height: 720px;
+  overflow: hidden;
+  background-color: #19a1ad;
+}
+body .topImage {
+  position: absolute;
+  left: -280px;
+  top: -500px;
+}
+body .bottomImage {
+  position: absolute;
+  right: -140px;
+  top: 380px;
+}
+body .card {
+  width: 353px;
+  height: 376px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 2px 1px 38px 6px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 2px 1px 38px 6px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 2px 1px 38px 6px rgba(0, 0, 0, 0.24);
+}
+body .card .card-header {
+  height: 143px;
+  width: 353px;
+}
+body .card .card-body {
+  width: 100%;
+  height: 145px;
+  text-align: center;
+}
+body .card .card-body img {
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+  top: -56px;
+}
+body .card .card-body p {
+  position: relative;
+  top: -36px;
+}
+body .card .card-footer {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+body .card .card-footer .first {
+  text-align: center;
+}
+body .card .card-footer .second {
+  text-align: center;
+}
+body .card .card-footer .third {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
